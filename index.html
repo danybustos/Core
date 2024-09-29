@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Perfil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <h1 id="perfil">Perfil</h1>
+        <div class="nav">
+            <ul id="navBar">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Mi Perfil</a></li>
+                <li><a href="#">Encontrar Conexiones</a></li>
+                <li>
+                <input type="button" value="Cerrar Sesión" id="cerrarSesion">
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section>
+        <div class="tarjeta">
+            <div class="barra"></div>
+            <img src="./Media/Danny.jpg" id="fotoPerfil">
+            <div class="texto">
+                <div class="datos">
+                    <h2>Daniela Bustos</h2>
+                    <h4>Concepción, Chile</h4>
+                    <p>Emprendedora / Técnico en Sonido / Avid ProTools Specialist</p>
+                    <p>Apasionada por la música y la programación. Cuando no toca el piano, está escuchando música o capturando momentos en cámara.</p>
+                </div>
+            </div>
+            <input type="button" value="⚙ Edit profile" id="edit">
+        </div>
+        <div class="education">
+            <div class="textEd">
+                <h2>Educación</h2>
+                <ul id="ed">
+                    <li>Colegio Bicentenario República del Brasil</li>
+                    <li>Universidad Santo Tomás</li>
+                    <li>Coding Dojo - Bootcamp de Desarrollo Full Stack</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <aside>
+        <div class="solicitudes">
+            <h2 id="sol">Solicitudes de Conexión (2)</h2>
+            <div class="row">
+                <img src="./Media/kai.jpeg" id="new">
+                <p class="name">Kai Schroder</p>
+                <input type="button" value="✓" class="bty">
+                <input type="button" value="X" class="btn">
+            </div>
+            <div class="row">
+                <img src="./Media/Amira.jpg" id="new">
+                <p class="name">Amira El-Marsy</p>
+                <input type="button" value="✓" class="bty">
+                <input type="button" value="X" class="btn">
+            </div>
+        </div>
+        <div class="conexiones">
+            <h2 id="tc">Tus Conexiones (500+)</h2>
+            <div class="row">
+                <img src="./Media/adrien.jpg">
+                <p class="name">Adrien Desplatz</p>
+            </div>
+            <div class="row">
+                <img src="./Media/aarav.jpg">
+                <p class="name">Aarav Patel</p>
+            </div>
+            <div class="row">
+                <img src="./Media/Lina.jpg">
+                <p class="name">Lina Kovacevic</p>
+            </div>
+            <div class="row">
+                <img src="./Media/mateo.jpg">
+                <p class="name">Mateo Hernández</p>
+            </div>
+            <div class="row">
+                <img src="./Media/Yuna.jpg">
+                <p class="name">Yuna Kim</p>
+            </div>
+            <div class="row">
+                <img src="./Media/liam.jpg">
+                <p class="name">Liam O'Brien</p>
+            </div>
+        </div>
+    </aside>
+</body>
+</html>
